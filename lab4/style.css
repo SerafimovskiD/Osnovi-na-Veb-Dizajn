@@ -1,0 +1,168 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.top li, a {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(124,124,124);
+    text-decoration: none;
+}
+
+.top {
+    margin: 1% 1% 1%;
+}
+
+.top header {
+    background-color: white;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 2px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10% 20px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.top_bar {
+    list-style: none;
+}
+
+.top_bar li {
+
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.top_bar li a {
+    transition: all 0.3 ease 0s;
+}
+
+.top_bar li a:hover {
+    color: black;
+}
+
+.top_bar li a:active {
+    color: rgb(154, 239, 154);
+}
+
+.container_1 {
+    margin: 1% 1% 1%;
+    background-color: #00008b;
+    color: white;
+}
+
+.container_1 .content {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_1 .content {
+    padding: 0% 10%;
+    align-items: left;
+    margin-right: 0;
+}
+
+.container_1 .content b {
+    max-width: 500px;
+}
+
+.container_1 .content #line_1 {
+    font-size: 50px;
+}
+
+.container_1 .content #line_2 {
+    font-size: 35px;
+}
+
+.container_2 {
+    margin: 1% 1% 1%;
+    background-color: #3cb371;
+    color: black;
+}
+
+.container_2 .content
+{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.container_2 .content {
+    padding: 0% 10%;
+    align-items: left;
+}
+
+.container_2 .content .image_1 img {
+    max-width: 30%;
+    max-height: 30%;
+    float: left;
+    border-radius: 45px;
+    padding: 2% 2% 2% ;
+}
+
+.container_2 .content .image_1 p {
+    padding: 2% 2% 2%;
+    text-align: justify;
+    font-size: 19px;
+    margin: auto;
+}
+
+.container_2 .content_2
+{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.container_2 .content_2 {
+    padding: 0% 10%;
+}
+
+.container_2 .content_2 .image_2 img {
+    max-width: 30%;
+    max-height: 30%;
+    float: right;
+    border-radius: 45px;
+    padding: 2% 2% 2%;
+}
+
+.container_2 .content_2 .image_2 p {
+    max-width: 70%;
+    max-height: 70%;
+    float: left;
+    padding: 2% 2% 2%;
+    text-align: justify;
+    font-size: 19px;
+    margin: auto;
+}
+
+.bottom li, a {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(124,124,124);
+    text-decoration: none;
+}
+
+.bottom {
+    margin: 1% 1% 1%;
+}
+
+.bottom header {
+    background-color: white;
+    border-top: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}

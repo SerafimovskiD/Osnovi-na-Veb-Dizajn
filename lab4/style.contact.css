@@ -1,0 +1,136 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.top li, a {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(124,124,124);
+    text-decoration: none;
+}
+
+.top {
+    margin: 1% 1% 1%;
+}
+
+.top header {
+    background-color: white;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 2px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10% 20px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.top_bar {
+    list-style: none;
+}
+
+.top_bar li {
+
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.top_bar li a {
+    transition: all 0.3 ease 0s;
+}
+
+.top_bar li a:hover {
+    color: black;
+}
+
+.top_bar li a:active {
+    color: rgb(154, 239, 154);
+}
+
+.container_2 {
+    background-color: #d3d3d3;
+    box-sizing: border-box;
+    margin: 1% 1% 1%;
+}
+.container_1
+{
+    margin: 1% 1% 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #d3d3d3;
+}
+.container_1 .content_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_1 .content_1 .text {
+    color: black;
+    max-width: 50%;
+    padding-right: 2%;
+    float: left;
+    display: inline;
+    font-size: 120%;
+}
+
+.container_1 .content_1 #map {
+    padding-top: 2%;
+    float: right;
+    display: inline;
+}
+
+.contact_container {
+    margin: 1% 1% 1%;
+    background-color: #90ee90;
+    color: white;
+}
+
+.contact_container .content {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_container .content #text_1 {
+    padding: 10px 10%;
+    float: left;
+}
+
+.contact_container .content #text_2 {
+    padding: 10px;
+    padding-right: 200px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    float: right;
+    display: inline;
+    font-size: 20px;
+}
+
+.bottom li, a {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(124,124,124);
+    text-decoration: none;
+}
+
+.bottom {
+    margin: 1% 1% 1%;
+}
+
+.bottom header {
+    background-color: white;
+    border-top: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
