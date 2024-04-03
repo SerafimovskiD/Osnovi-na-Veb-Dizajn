@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+
+}
+nav {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 1px -180px;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgba(17,56,119,0.66);
+    margin: 0 20px;
+}
+
+.zeleno {
+    background-color:lightgreen;
+    width:100%;
+    height:95vh;
+}
+
+.belo {
+    background-color: whitesmoke;
+    width:95%;
+    margin:0 auto;
+    border-radius: 5px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+input:not(:last-of-type), select {
+    margin: 15px 0;
+    width:600px;
+    padding:10px 0;
+
+}
+label{
+    font-size: large;
+}
+.leva
+{
+    font-size: large;
+    margin: 0 -35px;
+}
+.leva input, select{
+    padding:10px 15px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 10px 0;
+}
+.desna{
+    font-size: large;
+    margin: 0 -35px;
+}
+.desna input{
+    padding:10px 15px;
+    width: 650px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 10px 0 -15px 0;
+    float: right;
+}
+.desna textarea{
+    margin: 10px 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    width: 650px;
+    padding:10px 0 40px;
+}
+
+.leva, .desna {
+    padding-top:20px;
+}
+button {
+    float: left;
+}
